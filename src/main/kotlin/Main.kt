@@ -5,6 +5,8 @@ fun main() {
     a.prepend(Node(6))
     a.prepend(Node(1))
     a.append(Node(10))
+
+    a.removeAtIndex(1)
     a.printNodes()
     println("size of linked list - " + a.size)
 }

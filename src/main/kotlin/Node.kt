@@ -1,10 +1,10 @@
-class Node (private val value: Int?) {
+class Node (private val value: Int) {
     private var next: Node? = null
     fun getNextNode(): Node? {
         return next
     }
 
-    fun getNodeValue(): Int? {
+    fun getNodeValue(): Int {
         return value
     }
 
@@ -16,4 +16,5 @@ class Node (private val value: Int?) {
     override fun toString(): String {
         return "Node - ${this.value}"
     }
+
 }
